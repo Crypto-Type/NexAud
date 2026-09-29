@@ -1,0 +1,43 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Runtime / temporary files
+tmp/
+temp/
+cache/
+
+# Local database files
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Dependency directories
+vendor/
+node_modules/
+
+# Generated files
+uploads/
+storage/
+runtime/
+
+# Backups
+*.bak
+*.backup
+*.sql.gz
+
+# Local configuration
+config/local.php
